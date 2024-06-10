@@ -1,19 +1,30 @@
 package IntroToOOP;
 
+import java.util.ArrayList;
+
 public class Student {
-    private String name;
+    public String name;
     int age;
     protected double psp;
     public String batch;
+    Exam exam;
 
     public Student() {
         name = "Venkat";
         age = 18;
-        batch = "xyz";
     }
 
-    public Student(String name) {
+    public Student(String name,int age) {
         this.name = name;
+        this.exam = new Exam(1,90);
+    }
+
+    public Student(Student other){
+        this.name = other.name;
+        this.age = other.age;
+        this.psp = other.psp;
+        this.batch = other.batch;
+        this.exam = other.exam;
     }
 
 
@@ -22,7 +33,11 @@ public class Student {
     }
 
     void setName(String name){
-        this.name = name;
+        name = name;
+    }
+
+    void Test(){
+        System.out.println(this);
     }
 
     String getName(){

@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3fa36ad-5df2-4e53-89fe-51d6191ee3b3" name="Changes" comment="Testing Intellij">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroToOOP/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroToOOP/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accessModifiers/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntroToOOP/Exam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroToOOP/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToOOP/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroToOOP/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToOOP/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +37,9 @@
     &quot;accountId&quot;: &quot;68e00283-7eba-49ba-9981-a5054340fddc&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -162,25 +163,14 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/IntroToOOP/Client.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/IntroToOOP/Client.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/IntroToOOP/Client.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="8" />
+          <line>31</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="x.name" language="JAVA" />
-        <watch expression="y.name" />
+        <watch expression="x" />
       </configuration>
     </watches-manager>
   </component>
