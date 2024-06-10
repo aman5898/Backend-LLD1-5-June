@@ -8,4 +8,9 @@ public class Exam {
             this.exam_id = exam_id;
             this.exam_score = exam_score;
         }
+
+        public Exam(Exam other){
+            this.exam_id = other.exam_id;
+            this.exam_score = other.exam_score;
+        }
 }

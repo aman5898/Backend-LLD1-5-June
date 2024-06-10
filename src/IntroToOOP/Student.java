@@ -24,7 +24,9 @@ public class Student {
         this.age = other.age;
         this.psp = other.psp;
         this.batch = other.batch;
-        this.exam = other.exam;
+        this.exam = new Exam(other.exam);
+//        below will create only a shallow copy of exam
+//        this.exam = other.exam;
     }
 
 

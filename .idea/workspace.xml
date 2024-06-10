@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3fa36ad-5df2-4e53-89fe-51d6191ee3b3" name="Changes" comment="Testing Intellij">
-      <change afterPath="$PROJECT_DIR$/src/IntroToOOP/Exam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntroToOOP/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToOOP/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntroToOOP/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToOOP/Student.java" afterDir="false" />
-    </list>
+    <list default="true" id="a3fa36ad-5df2-4e53-89fe-51d6191ee3b3" name="Changes" comment="Deep Copy and Shallow Copy" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717755736764</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Deep Copy and Shallow Copy">
+      <option name="closed" value="true" />
+      <created>1718037608122</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718037608122</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +149,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Testing Intellij" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing Intellij" />
+    <MESSAGE value="Deep Copy and Shallow Copy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deep Copy and Shallow Copy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
