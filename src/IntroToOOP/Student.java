@@ -9,14 +9,29 @@ public class Student {
     public String batch;
     Exam exam;
 
+    static int noOfStudents;
+
+    // static block
+    static {
+        // static block will run time when the class loads
+        // You can write as many static blocks as you want
+        // It will be executed one after another
+        // write the logic
+        System.out.println("First Printing");
+        noOfStudents = 100;
+    }
+
+
     public Student() {
         name = "Venkat";
         age = 18;
+        noOfStudents++;
     }
 
     public Student(String name,int age) {
         this.name = name;
         this.exam = new Exam(1,90);
+        noOfStudents++;
     }
 
     public Student(Student other){
@@ -27,6 +42,7 @@ public class Student {
         this.exam = new Exam(other.exam);
 //        below will create only a shallow copy of exam
 //        this.exam = other.exam;
+        this.noOfStudents++;
     }
 
 
@@ -44,6 +60,11 @@ public class Student {
 
     String getName(){
         return this.name;
+    }
+
+    static int getNoOfStudents(){
+//        System.out.println(name);
+        return Student.noOfStudents;
     }
 }
 

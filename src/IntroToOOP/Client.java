@@ -1,6 +1,7 @@
 package IntroToOOP;
 
 public class Client {
+
     public static void main(String[] args) {
 //        Student x = new Student();
 //        x.age = 35;
@@ -62,7 +63,23 @@ public class Client {
 //        Student s2 = new Student();
 //        s1=s2;
 
-        Student s1 = new Student("Shubham",25);
-        Student copy1 = new Student(s1);
+//        Student s1 = new Student("Shubham",25);
+//        Student copy1 = new Student(s1);
+
+        // Static Variable
+
+        System.out.println(Student.noOfStudents);
+        System.out.println("Test");
+        Student s1 = new Student();
+        System.out.println(s1.noOfStudents);
+        Student s2 = new Student("Shubham",25);
+        System.out.println(s2.noOfStudents);
+        Student s3 = new Student(s2);
+        System.out.println(s3.noOfStudents);
+        s3.print();
+        System.out.println(Student.getNoOfStudents());
+//        Student.print();
+
+        int x = Math.abs(10);
     }
 }
