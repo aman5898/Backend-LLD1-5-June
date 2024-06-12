@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3fa36ad-5df2-4e53-89fe-51d6191ee3b3" name="Changes" comment="Deep Copy and Shallow Copy">
+      <change afterPath="$PROJECT_DIR$/src/inheritanceAndConstructors/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritanceAndConstructors/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritanceAndConstructors/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritanceAndConstructors/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritanceAndConstructors/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inhreitance/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inhreitance/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inhreitance/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntroToOOP/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToOOP/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntroToOOP/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToOOP/Exam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntroToOOP/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToOOP/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +62,8 @@
     "Application.Client2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.inheritanceAndConstructors.Client.executor": "Run",
+    "Application.inhreitance.Client.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -188,12 +195,17 @@
           <line>66</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/inhreitance/Client.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/inheritanceAndConstructors/Client.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="x" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
