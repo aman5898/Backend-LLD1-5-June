@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3fa36ad-5df2-4e53-89fe-51d6191ee3b3" name="Changes" comment="Deep Copy and Shallow Copy">
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/RoboticDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/RunnerPlus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introToThreads/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introToThreads/HelloWorldPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introToThreads/HelloWorldPrinter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introToThreads/NumberPrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +62,7 @@
     "Application.Test.executor": "Run",
     "Application.inheritanceAndConstructors.Client.executor": "Run",
     "Application.inhreitance.Client.executor": "Debug",
+    "Application.introToThreads.Client.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -79,7 +77,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.introToThreads.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntroToOOP.Client" />
       <module name="Backend LLD-1 5 June" />
@@ -119,8 +117,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="introToThreads.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introToThreads.Client" />
+      <module name="Backend LLD-1 5 June" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="introToThreads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.introToThreads.Client" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Interfaces.Client" />
         <item itemvalue="Application.Client" />
@@ -223,11 +235,6 @@
           <url>file://$PROJECT_DIR$/src/IntroToOOP/Client.java</url>
           <line>66</line>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/inhreitance/Client.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/inheritanceAndConstructors/Client.java</url>
