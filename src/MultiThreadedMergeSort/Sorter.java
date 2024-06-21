@@ -42,7 +42,7 @@ public class Sorter implements Callable<List<Integer>> {
         // Runnable -> es.execute
         // Callable -> es.submit
 
-//        ExecutorService es = Executors.newFixedThreadPool(2);
+//      ExecutorService es = Executors.newFixedThreadPool(2);
         Future<List<Integer>> leftFuture = executor.submit(leftArraySorter);
         Future<List<Integer>> rightFuture = executor.submit(rightArraySorter);
 
