@@ -9,7 +9,7 @@ public class Client {
 //            t.start();
 //        }
 
-        for(int i=1;i<=1000;i++){
+        for(int i=1;i<=1000000;i++){
             NumberPrinter numberPrinter = new NumberPrinter(i);
             Thread thread = new Thread(numberPrinter);
             thread.start();
