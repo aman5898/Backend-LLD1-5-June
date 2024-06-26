@@ -1,7 +1,6 @@
-package AdderSubtractorSyncLock;
+package AdderSubtractorSyncBLock;
 
 import java.util.concurrent.Callable;
-import java.util.concurrent.locks.Lock;
 
 public class Subtracter implements Callable<Void> {
     private Value v;
