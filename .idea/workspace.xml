@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3fa36ad-5df2-4e53-89fe-51d6191ee3b3" name="Changes" comment="Mutex and Synchronization Method">
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtracterAtomic/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtracterAtomic/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtracterAtomic/Subtracter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtracterAtomic/Value.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtracterDeadlock/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtracterDeadlock/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtracterDeadlock/Subtracter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtracterDeadlock/Value.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphore/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphore/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphore/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphore/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/AnimalUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/AnimalUtility2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/Pair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +64,7 @@
     "Application.AdderSubtractorSyncLock.Client.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.Client2.executor": "Run",
+    "Application.Generics.Client.executor": "Run",
     "Application.Interfaces.Client.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MultiThreadedMergeSort.Client.executor": "Run",
@@ -103,7 +98,7 @@
       <recent name="$PROJECT_DIR$/src/AdderSubtractorSyncLock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdderSubtracterDeadlock.Client">
+  <component name="RunManager" selected="Application.Generics.Client">
     <configuration name="AdderSubtracterAtomic.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdderSubtracterAtomic.Client" />
       <module name="Backend LLD-1 5 June" />
@@ -130,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdderSubtracterSyncMethod.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AdderSubtracterSyncMethod.Client" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProducerConsumerSemaphore.Client" />
       <module name="Backend LLD-1 5 June" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AdderSubtracterSyncMethod.*" />
+          <option name="PATTERN" value="ProducerConsumerSemaphore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProducerConsumerSemaphore.Client" />
+    <configuration name="Generics.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.Client" />
       <module name="Backend LLD-1 5 June" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProducerConsumerSemaphore.*" />
+          <option name="PATTERN" value="Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Generics.Client" />
         <item itemvalue="Application.AdderSubtracterDeadlock.Client" />
         <item itemvalue="Application.AdderSubtracterAtomic.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.ProducerConsumer.Client" />
-        <item itemvalue="Application.AdderSubtracterSyncMethod.Client" />
       </list>
     </recent_temporary>
   </component>
