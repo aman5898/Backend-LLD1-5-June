@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3fa36ad-5df2-4e53-89fe-51d6191ee3b3" name="Changes" comment="Mutex and Synchronization Method">
-      <change afterPath="$PROJECT_DIR$/src/Generics/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/AnimalUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/AnimalUtility2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Pair.java" afterDir="false" />
+    <list default="true" id="a3fa36ad-5df2-4e53-89fe-51d6191ee3b3" name="Changes" comment="Collections Completed">
+      <change afterPath="$PROJECT_DIR$/src/Collections/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/StudentPSPComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generics/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +62,7 @@
     "Application.AdderSubtractorSyncLock.Client.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.Client2.executor": "Run",
+    "Application.Collections.Client.executor": "Run",
     "Application.Generics.Client.executor": "Run",
     "Application.Interfaces.Client.executor": "Run",
     "Application.Main.executor": "Run",
@@ -85,6 +84,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/aman/IdeaProjects/Backend LLD-1 5 June/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
@@ -98,7 +100,7 @@
       <recent name="$PROJECT_DIR$/src/AdderSubtractorSyncLock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Generics.Client">
+  <component name="RunManager" selected="Application.Collections.Client">
     <configuration name="AdderSubtracterAtomic.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdderSubtracterAtomic.Client" />
       <module name="Backend LLD-1 5 June" />
@@ -138,6 +140,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Collections.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.Client" />
+      <module name="Backend LLD-1 5 June" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Generics.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Generics.Client" />
       <module name="Backend LLD-1 5 June" />
@@ -151,26 +166,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerConsumer.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProducerConsumer.Client" />
-      <module name="Backend LLD-1 5 June" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ProducerConsumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Collections.Client" />
         <item itemvalue="Application.Generics.Client" />
         <item itemvalue="Application.AdderSubtracterDeadlock.Client" />
         <item itemvalue="Application.AdderSubtracterAtomic.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.ProducerConsumer.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +196,7 @@
       <workItem from="1717770141474" duration="6438000" />
       <workItem from="1718982624771" duration="498000" />
       <workItem from="1718984424936" duration="9951000" />
+      <workItem from="1719852821919" duration="5213000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -243,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719249080431</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Collections Completed">
+      <option name="closed" value="true" />
+      <created>1719856745810</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719856745811</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +277,8 @@
     <MESSAGE value="Deep Copy and Shallow Copy" />
     <MESSAGE value="Thread Pool" />
     <MESSAGE value="Mutex and Synchronization Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mutex and Synchronization Method" />
+    <MESSAGE value="Collections Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collections Completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

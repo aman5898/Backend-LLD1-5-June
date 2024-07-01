@@ -54,7 +54,7 @@ public class Client {
 //        AnimalUtility.printAnimalNames(dogs);
 //        List<Dog>
 //        AnimalUtility.printAnimalNames(animals);
-        AnimalUtility2<Dog> an= new AnimalUtility2<>();
+//        AnimalUtility2<Dog> an= new AnimalUtility2<>();
     }
 }
 
