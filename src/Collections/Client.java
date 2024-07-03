@@ -115,7 +115,15 @@ public class Client {
         Collections.sort(ll);
         System.out.println(ll);
 
-        Collections.sort(ll,new StudentPSPComparator());
+        Comparator<Student> c1 = (o1,o2)->{
+          return (int)(o1.psp-o2.psp);
+        };
+
+//        Collections.sort(ll,new StudentPSPComparator());
+//        Collections.sort(ll,c1);
+        Collections.sort(ll,(o1,o2)->{
+            return (int)(o1.psp-o2.psp);
+        });
         System.out.println(ll);
     }
 }
