@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3fa36ad-5df2-4e53-89fe-51d6191ee3b3" name="Changes" comment="Lambdas intermediate Code">
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/RandomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IterableAndIterator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IterableAndIterator/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IterableAndIterator/RandomIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LambdaAndStreams/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LambdaAndStreams/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +67,8 @@
     "Application.Collections.Client.executor": "Debug",
     "Application.Generics.Client.executor": "Run",
     "Application.Interfaces.Client.executor": "Run",
-    "Application.LambdaAndStreams.Client.executor": "Debug",
+    "Application.IterableAndIterator.Client.executor": "Run",
+    "Application.LambdaAndStreams.Client.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MultiThreadedMergeSort.Client.executor": "Run",
     "Application.ProducerConsumer.Client.executor": "Run",
@@ -98,26 +104,13 @@
       <recent name="$PROJECT_DIR$/src/AdderSubtractorSyncLock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaAndStreams.Client">
-    <configuration name="AdderSubtracterAtomic.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AdderSubtracterAtomic.Client" />
+  <component name="RunManager" selected="Application.IterableAndIterator.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.Client" />
       <module name="Backend LLD-1 5 June" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AdderSubtracterAtomic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdderSubtracterDeadlock.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AdderSubtracterDeadlock.Client" />
-      <module name="Backend LLD-1 5 June" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AdderSubtracterDeadlock.*" />
+          <option name="PATTERN" value="ExceptionHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,6 +144,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IterableAndIterator.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IterableAndIterator.Client" />
+      <module name="Backend LLD-1 5 June" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IterableAndIterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LambdaAndStreams.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LambdaAndStreams.Client" />
       <module name="Backend LLD-1 5 June" />
@@ -166,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IterableAndIterator.Client" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.LambdaAndStreams.Client" />
         <item itemvalue="Application.Collections.Client" />
         <item itemvalue="Application.Generics.Client" />
-        <item itemvalue="Application.AdderSubtracterDeadlock.Client" />
-        <item itemvalue="Application.AdderSubtracterAtomic.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -349,21 +355,6 @@
           <url>file://$PROJECT_DIR$/src/MultiThreadedMergeSort/Sorter.java</url>
           <line>49</line>
           <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LambdaAndStreams/Client.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LambdaAndStreams/Client.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LambdaAndStreams/Client.java</url>
-          <line>220</line>
-          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
