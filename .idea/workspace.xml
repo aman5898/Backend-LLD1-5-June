@@ -5,47 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3fa36ad-5df2-4e53-89fe-51d6191ee3b3" name="Changes" comment="Exceptions Done">
-      <change afterPath="$PROJECT_DIR$/src/IterableAndIterator/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV0/BirdV0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV1/BirdV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV1/Eagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV1/Penguin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV1/Pigeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/BirdV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/Eagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/FlyingBird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/NonFlyingBird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/Penguin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV2/Pigeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/BirdV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Eagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Penguin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Pigeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Sparrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV3/Vulture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/BirdV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Eagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/FlyHigh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/FlyLow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/FlyingBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Penguin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Pigeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Sparrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/BirdV5/Vulture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/V4/BirdV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/V4/Eagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/V4/FlyHigh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/V4/FlyLow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/V4/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/V4/Penguin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/V4/Pigeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/V4/Sparrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/V4/Vulture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/StudentBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LambdaAndStreams/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LambdaAndStreams/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +59,7 @@
     "Application.AdderSubtracterLock.Client.executor": "Run",
     "Application.AdderSubtracterSyncMethod.Client.executor": "Run",
     "Application.AdderSubtractorSyncLock.Client.executor": "Run",
+    "Application.Builder.Client.executor": "Run",
     "Application.Client.executor": "Debug",
     "Application.Client2.executor": "Run",
     "Application.Collections.Client.executor": "Debug",
@@ -143,13 +107,13 @@
       <recent name="SOLID.V3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SOLID.V5.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.Client" />
+  <component name="RunManager" selected="Application.Builder.Client">
+    <configuration name="Builder.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Builder.Client" />
       <module name="Backend LLD-1 5 June" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExceptionHandling.*" />
+          <option name="PATTERN" value="Builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Collections.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.Client" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.Client" />
       <module name="Backend LLD-1 5 June" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.*" />
+          <option name="PATTERN" value="ExceptionHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Builder.Client" />
         <item itemvalue="Application.SOLID.V5.Client" />
         <item itemvalue="Application.LambdaAndStreams.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.IterableAndIterator.Client" />
-        <item itemvalue="Application.Collections.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +402,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/SOLID/BirdV5/FlyLow.java</url>
           <line>2</line>
-          <properties class="SOLID.BirdV5.FlyLow" method="flyLow">
+          <properties class="SOLID.BirdV5.FlyLow" method="makeFly">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
