@@ -23,6 +23,12 @@ public class Client {
                 .setGradYear(2025)
                 .build();
 
+//        Student st = new Student();
+
+//        StudentBuilder sb = new StudentBuilder();
+//        sb.setGradYear(25);
+//        sb.setAge(13);
+//        Student st = new Student(sb);
 
     }
 }
