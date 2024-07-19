@@ -17,11 +17,13 @@ public class Client {
 //
 //        Student st = new Student(sb);
 
-        Student s = Student.getBuilder()
-                .setAge(25)
-                .setBatch("Nov Advanced")
-                .setGradYear(2025)
-                .build();
+//        Student s = Student.getBuilder()
+//                .setAge(25)
+//                .setBatch("Nov Advanced")
+//                .setGradYear(2025)
+//                .build();
+
+        Student.StudentBuilder sb = Student.getBuilder();
 
 //        Student st = new Student();
 
