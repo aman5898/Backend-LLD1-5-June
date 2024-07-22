@@ -1,4 +1,4 @@
-package MethodReferencing.Q1Session;
+package MethodReferencingAndSingleton.Q1Session;
 
 public class FileBasedConfigurationManagerImpl extends FileBasedConfigurationManager {
 

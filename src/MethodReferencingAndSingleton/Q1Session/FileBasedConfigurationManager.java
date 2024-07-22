@@ -1,4 +1,4 @@
-package MethodReferencing.Q1Session;
+package MethodReferencingAndSingleton.Q1Session;
 
 import java.io.FileInputStream;
 import java.io.IOException;

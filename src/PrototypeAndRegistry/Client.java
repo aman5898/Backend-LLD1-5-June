@@ -1,5 +1,7 @@
 package PrototypeAndRegistry;
 
+import java.util.ArrayList;
+
 public class Client {
 
     static void doSomething(Student s){
@@ -11,7 +13,7 @@ public class Client {
     public static void fillRegistery(StudentRegistry studentRegistry){
         Student st = new Student();
         st.batch = "Nov23 Advance";
-
+//        ArrayList
         studentRegistry.register("Student", st);
 
         IntelligentStudent st2 = new IntelligentStudent();
@@ -32,6 +34,6 @@ public class Client {
         StudentRegistry studentRegistry = new StudentRegistry();
         fillRegistery(studentRegistry);
 
-        IntelligentStudent st = (IntelligentStudent) studentRegistry.get("IntelligentStudent");
+        IntelligentStudent st = (IntelligentStudent) studentRegistry.get("Student");
     }
 }

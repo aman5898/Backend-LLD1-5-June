@@ -1,4 +1,4 @@
-package MethodReferencing;
+package MethodReferencingAndSingleton;
 
 import java.util.ArrayList;
 import java.util.List;
