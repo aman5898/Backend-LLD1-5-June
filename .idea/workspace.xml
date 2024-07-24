@@ -4,29 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3fa36ad-5df2-4e53-89fe-51d6191ee3b3" name="Changes" comment="Prototype and Registry">
-      <change afterPath="$PROJECT_DIR$/src/Factory/Android.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/AndroidComponentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/IOS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/IOSComponentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Platform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/PlatformFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/UIComponentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Button/AndroidButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Button/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Button/IOSButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Dropdown/AndriodDropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Dropdown/Dropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Dropdown/IOSDropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Menu/AndroidMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Menu/IOSMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/components/Menu/Menu.java" afterDir="false" />
+    <list default="true" id="a3fa36ad-5df2-4e53-89fe-51d6191ee3b3" name="Changes" comment="Factory Pattern">
+      <change afterPath="$PROJECT_DIR$/src/AdapterV0Tight/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV0Tight/FastTagRecharge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV0Tight/PhonePe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV0Tight/PhonePeLoan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV0Tight/YesBankAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/BankAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/BankAPIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/FastTagRecharge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/ICICIBankAPIAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/PhonePe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/PhonePeLoan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/YesBankAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdapterV1Loose/YesBankAPIAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MethodReferencing/Q1Session/FileBasedConfigurationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodReferencingAndSingleton/Q1Session/FileBasedConfigurationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MethodReferencing/Q1Session/FileBasedConfigurationManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodReferencingAndSingleton/Q1Session/FileBasedConfigurationManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MethodReferencing/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodReferencingAndSingleton/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrototypeAndRegistry/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrototypeAndRegistry/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +93,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/aman/IdeaProjects/Backend LLD-1 5 June/src/SOLID/BirdV5&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aman/IdeaProjects/Backend LLD-1 5 June/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -115,18 +109,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/SOLID/BirdV5" />
       <recent name="$PROJECT_DIR$/src/SOLID/V4" />
       <recent name="$PROJECT_DIR$/src/SOLID/BirdV3" />
       <recent name="$PROJECT_DIR$/src/SOLID/BirdV2" />
-      <recent name="$PROJECT_DIR$/src/SOLID/V5" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="SOLID.BirdV3" />
       <recent name="SOLID.V3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrototypeAndRegistry.Client">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Builder.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Builder.Client" />
       <module name="Backend LLD-1 5 June" />
@@ -140,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaAndStreams.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdaAndStreams.Client" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdapterV1Loose.Client" />
       <module name="Backend LLD-1 5 June" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LambdaAndStreams.*" />
+          <option name="PATTERN" value="AdapterV1Loose.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.PrototypeAndRegistry.Client" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Builder.Client" />
         <item itemvalue="Application.SOLID.V5.Client" />
-        <item itemvalue="Application.LambdaAndStreams.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +222,12 @@
       <workItem from="1720792024798" duration="7575000" />
       <workItem from="1721300792491" duration="14970000" />
       <workItem from="1721652151696" duration="4191000" />
-      <workItem from="1721669983251" duration="598000" />
+      <workItem from="1721669983251" duration="2230000" />
+      <workItem from="1721752959390" duration="1885000" />
+      <workItem from="1721815415744" duration="387000" />
+      <workItem from="1721815816085" duration="98000" />
+      <workItem from="1721834629887" duration="26000" />
+      <workItem from="1721834688209" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -342,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721497770561</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Factory Pattern">
+      <option name="closed" value="true" />
+      <created>1721670736804</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1721670736804</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +391,8 @@
     <MESSAGE value="Builder V1" />
     <MESSAGE value="Builder V2" />
     <MESSAGE value="Prototype and Registry" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prototype and Registry" />
+    <MESSAGE value="Factory Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
