@@ -9,6 +9,8 @@ public class PhonePe {
         this.yb = yb;
     }
 
+//    PhonePe(BankApi yb, )
+
     boolean checkLoanEligibility(){
         return loan.LoanCheck(yb);
     }
