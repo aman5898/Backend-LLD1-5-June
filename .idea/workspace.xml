@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3fa36ad-5df2-4e53-89fe-51d6191ee3b3" name="Changes" comment="Strategy V0">
-      <change afterPath="$PROJECT_DIR$/src/Strategy/BikePathCalcStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/CarPathCalcStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/PathCalcStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/PathCalculatorStrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/WalkPathCalcStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strategy/GoogleMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/GoogleMaps.java" afterDir="false" />
+    <list default="true" id="a3fa36ad-5df2-4e53-89fe-51d6191ee3b3" name="Changes" comment="Strategy V1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +219,7 @@
       <workItem from="1721901508132" duration="2573000" />
       <workItem from="1722010182817" duration="4699000" />
       <workItem from="1722260743225" duration="5000" />
-      <workItem from="1722265346627" duration="2685000" />
+      <workItem from="1722265346627" duration="4386000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -370,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722268680668</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Strategy V1">
+      <option name="closed" value="true" />
+      <created>1722269016408</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1722269016408</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +419,8 @@
     <MESSAGE value="Adapter pattern" />
     <MESSAGE value="Decorator" />
     <MESSAGE value="Strategy V0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strategy V0" />
+    <MESSAGE value="Strategy V1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strategy V1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
