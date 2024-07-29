@@ -24,11 +24,6 @@ public class WeatherData implements Subject {
 	}
 	
 	public void notifyObservers() {
-		// older version might have been directly associated to the classes and not dynamic
-		//		currentDisplay.update();
-		//		statisticsDisplay.update();
-		//		forecastDisplay.update();
-		//      HeatIndex.update();
 		System.out.println("******** LET'S NOTIFY *******");
 		for (Observer observer : observers) {
 			observer.update(temperature, humidity, pressure);
