@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3fa36ad-5df2-4e53-89fe-51d6191ee3b3" name="Changes" comment="Observer Template">
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/controllers/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/BotDifficultyLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/BotPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/CellState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/GameState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/HumanPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/PlayerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Symbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/strategies/RowWinningStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/strategies/WinningStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/controllers/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/models/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/models/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/models/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/models/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/models/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,51 +55,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AdderSubtracterAtomic.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtracterDeadlock.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtracterLock.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtracterSyncMethod.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtractorSyncLock.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Builder.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Collections.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Decorator.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Generics.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interfaces.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IterableAndIterator.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaAndStreams.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiThreadedMergeSort.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumer.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrototypeAndRegistry.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SOLID.V5.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPool.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WeatherStation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inheritanceAndConstructors.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inhreitance.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.introToThreads.Client.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/aman/IdeaProjects/Backend LLD-1 5 June/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/aman/IdeaProjects/Backend LLD-1 5 June/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdderSubtracterAtomic.Client.executor": "Run",
+    "Application.AdderSubtracterDeadlock.Client.executor": "Run",
+    "Application.AdderSubtracterLock.Client.executor": "Run",
+    "Application.AdderSubtracterSyncMethod.Client.executor": "Run",
+    "Application.AdderSubtractorSyncLock.Client.executor": "Run",
+    "Application.Builder.Client.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.Client2.executor": "Run",
+    "Application.Collections.Client.executor": "Debug",
+    "Application.Decorator.Client.executor": "Debug",
+    "Application.Generics.Client.executor": "Run",
+    "Application.Interfaces.Client.executor": "Run",
+    "Application.IterableAndIterator.Client.executor": "Run",
+    "Application.LambdaAndStreams.Client.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Application.MultiThreadedMergeSort.Client.executor": "Run",
+    "Application.ProducerConsumer.Client.executor": "Run",
+    "Application.PrototypeAndRegistry.Client.executor": "Debug",
+    "Application.SOLID.V5.Client.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.ThreadPool.Client.executor": "Run",
+    "Application.TicTacToe.Client.executor": "Run",
+    "Application.WeatherStation.executor": "Run",
+    "Application.inheritanceAndConstructors.Client.executor": "Run",
+    "Application.inhreitance.Client.executor": "Debug",
+    "Application.introToThreads.Client.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/aman/IdeaProjects/Backend LLD-1 5 June/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/aman/IdeaProjects/Backend LLD-1 5 June/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -125,7 +115,7 @@
       <recent name="SOLID.V3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeatherStation">
+  <component name="RunManager" selected="Application.TicTacToe.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdapterV1Loose.Client" />
       <module name="Backend LLD-1 5 June" />
@@ -165,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MethodReferencingAndSingleton.Test" />
+    <configuration name="TicTacToe.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TicTacToe.Client" />
       <module name="Backend LLD-1 5 June" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MethodReferencingAndSingleton.*" />
+          <option name="PATTERN" value="TicTacToe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TicTacToe.Client" />
         <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.Decorator.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.PrototypeAndRegistry.Client" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +228,7 @@
       <workItem from="1722010182817" duration="4699000" />
       <workItem from="1722260743225" duration="5000" />
       <workItem from="1722265346627" duration="6575000" />
-      <workItem from="1723475309005" duration="5155000" />
+      <workItem from="1723475309005" duration="9074000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />

@@ -85,6 +85,10 @@ public class Game {
         return new Builder();
     }
 
+    public void diplayBoard(){
+        board.display();
+    }
+
 
 
     public static class Builder{
@@ -145,3 +149,5 @@ public class Game {
 
     }
 }
+
+// Break - 10:13pm - 10:23pm

@@ -22,11 +22,15 @@ public class GameController {
     }
 
     public GameState checkState(Game game){
-        return null;
+        return game.getGameState();
     }
 
     public void makeMove(Game game){
 
+    }
+
+    public void display(Game game){
+            game.diplayBoard();
     }
 
     public Player getWinner(Game game){
@@ -39,3 +43,15 @@ public class GameController {
 
 
 }
+
+
+// 1. Start the Game : Create, set the attributes, taking the input : Validate
+// while the gameState IN_PROGRESS
+// 2. Display the board
+// 3. Make the move : input, make the move, update the state, https://github.com/aman5898/Backend-LLD1-5-June
+
+    // 4. Check the state
+            // if gameState is SUCCESS
+    // 5. Get the winner and display
+            // else if gameState is DRAW
+    // 6. Declare the draw
