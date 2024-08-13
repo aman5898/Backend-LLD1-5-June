@@ -3,7 +3,7 @@ package TicTacToe.models;
 public abstract class Player {
     private int id;
     private String name;
-    private PlayerType playerType;
+    private final PlayerType playerType;
     private Symbol symbol;
 
     public Player(int id, String name, PlayerType playerType, Symbol symbol){
@@ -33,9 +33,9 @@ public abstract class Player {
         return playerType;
     }
 
-    public void setPlayerType(PlayerType playerType) {
-        this.playerType = playerType;
-    }
+//    public void setPlayerType(PlayerType playerType) {
+//        this.playerType = playerType;
+//    }
 
     public Symbol getSymbol() {
         return symbol;
