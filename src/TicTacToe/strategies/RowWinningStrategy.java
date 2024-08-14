@@ -1,48 +1,43 @@
 package TicTacToe.strategies;
 
-import TicTacToe.models.*;
+import TicTacToe.models.Board;
+import TicTacToe.models.Move;
 
-import java.util.List;
+import java.util.HashMap;
 
 public class RowWinningStrategy implements WinningStrategy {
-//    Board board;
-//    List<Move> moves;
-//
-////    public RowWinningStrategy(Board board, List<Move> moves){
-////        this.board = board;
-////        this.moves = moves;
-////    }
-//
-//    public void setBoard(Board board) {
-//        this.board = board;
-//    }
-//
-//    public void setMoves(List<Move> moves) {
-//        this.moves = moves;
-//    }
+    // Every Game will have a seperate instance of  this RowWinningStrategy so, if keep the member hashmap
+//    static, it will go wrong.
+    HashMap<Integer, HashMap<Character, Integer>> counts = new HashMap<>();
 
-    public boolean checkWinner(Game game) {
-        Board board = game.getBoard();
-        List<Move> moves = game.getMoves();
-        System.out.println("Checking for row win");
-        Move lastMove = moves.getLast();
-        Player currentPlayer = lastMove.getPlayer();
-        Cell lastPopulatedCell = lastMove.getCell();
-        int row_id = lastPopulatedCell.getRow();
-        int col_id = lastPopulatedCell.getCol();
-        for (int col = 0; col < board.getSize(); col += 1) {
-            if (board.getCell(row_id, col).getSymbol() != currentPlayer.getSymbol()) {
-//                How to know if the for loop was complete successfully
-                System.out.println("Player " + currentPlayer.getName() + " didnt win this attempt");
-                return false;
+    // for row and column winning strategy, we don't need the board only dimension, but keeping it
+    // in interface since you can have any kind of winning strategy.
+    public boolean checkWinner(Board board, Move move) {
+//        0 -> {'X':count} {'Y' count} {'Z' -> 3}
+//        1 - > {'X':count}
+
+
+//        2, 0 -> U
+
+            int row = move.getCell().getRow();
+            Character sym = move.getCell().getSymbol().getSym();
+
+            if(!counts.containsKey(row)){
+                counts.put(row,new HashMap<>());
             }
-            else
-                continue;
-        }
-        game.setWinner(currentPlayer);
-        game.setGameState(GameState.SUCCESS);
-        return true;
 
+            HashMap<Character,Integer> countRow = counts.get(row);
+
+            if(!countRow.containsKey(sym)){
+                countRow.put(sym,0);
+            }
+
+            countRow.put(sym,countRow.get(sym)+1);
+
+            if(countRow.get(sym) == board.getSize()){
+                return true;
+            }
+
+            return false;
     }
-
 }

@@ -2,6 +2,7 @@ package TicTacToe;
 
 import TicTacToe.controllers.GameController;
 import TicTacToe.models.*;
+import TicTacToe.strategies.ColWinningStrategy;
 import TicTacToe.strategies.RowWinningStrategy;
 
 import java.util.ArrayList;
@@ -14,12 +15,12 @@ public class Client {
         List<Player> players = new ArrayList<>();
 
         players.add(new HumanPlayer(1,"Aman", new Symbol('0')));
-        players.add(new BotPlayer(2,"Bot",new Symbol('X'),BotDifficultyLevel.EASY));
+        players.add(new BotPlayer(2,"Bot", PlayerType.BOT, new Symbol('X'), BotDifficultyLevel.EASY));
 
         Game game = gc.startGame(
                 3,
                 players,
-                List.of(new RowWinningStrategy()));
+                List.of(new RowWinningStrategy(),new ColWinningStrategy()));
 
 //        Game g2 = gc.startGame();
         gc.display(game);
@@ -28,6 +29,7 @@ public class Client {
 //          After each move it makeMove will fire check Winner
 //          if there is a Winner, it set the gameState as SUCCESS
             gc.makeMove(game);
+            gc.display(game);
         }
 
         if(gc.checkState(game).equals(GameState.SUCCESS)){
