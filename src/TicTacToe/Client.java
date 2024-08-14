@@ -2,6 +2,7 @@ package TicTacToe;
 
 import TicTacToe.controllers.GameController;
 import TicTacToe.models.*;
+import TicTacToe.strategies.ColWinningStrategy;
 import TicTacToe.strategies.RowWinningStrategy;
 
 import java.util.ArrayList;
@@ -19,13 +20,14 @@ public class Client {
         Game game = gc.startGame(
                 3,
                 players,
-                List.of(new RowWinningStrategy()));
+                List.of(new RowWinningStrategy(),new ColWinningStrategy()));
 
 //        Game g2 = gc.startGame();
         gc.display(game);
 
         while(gc.checkState(game).equals(GameState.IN_PROGRESS)){
             gc.makeMove(game);
+            gc.display(game);
         }
 
         if(gc.checkState(game).equals(GameState.SUCCESS)){
