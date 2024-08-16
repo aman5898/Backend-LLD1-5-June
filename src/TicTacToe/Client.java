@@ -18,8 +18,8 @@ public class Client {
         List<Player> players = new ArrayList<>();
 
 
-        players.add(new HumanPlayer(1,"Aman", PlayerType.HUMAN,new Symbol('0')));
-        players.add(new BotPlayer(2,"Bot",PlayerType.BOT,new Symbol('X'),BotDifficultyLevel.EASY));
+        players.add(new HumanPlayer(1,"Aman", new Symbol('0')));
+        players.add(new BotPlayer(2,"Bot",new Symbol('X'),BotDifficultyLevel.EASY));
 
         Game game = gc.startGame(
                 3,

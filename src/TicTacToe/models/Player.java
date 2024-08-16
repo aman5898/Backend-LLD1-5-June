@@ -5,7 +5,7 @@ import java.util.Scanner;
 public abstract class Player {
     private int id;
     private String name;
-    private PlayerType playerType;
+    private final PlayerType playerType;
     private Symbol symbol;
     private Scanner scn = new Scanner(System.in);
 
@@ -36,9 +36,9 @@ public abstract class Player {
         return playerType;
     }
 
-    public void setPlayerType(PlayerType playerType) {
-        this.playerType = playerType;
-    }
+//    public void setPlayerType(PlayerType playerType) {
+//        this.playerType = playerType;
+//    }
 
     public Symbol getSymbol() {
         return symbol;

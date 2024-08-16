@@ -54,7 +54,10 @@ public class Game {
     }
 
     public void setNextPlayerIndex(int nextPlayerIndex) {
-        this.nextPlayerIndex = nextPlayerIndex;
+        if (nextPlayerIndex < this.board.getSize()-1)
+            this.nextPlayerIndex = nextPlayerIndex;
+        else
+            this.nextPlayerIndex = 0;
     }
 
     public List<Move> getMoves() {
@@ -153,7 +156,7 @@ public class Game {
         Cell cellToChange = board.getGrid().get(row).get(col);
         cellToChange.setCellState(CellState.FILLED);
         cellToChange.setSymbol(currentPlayer.getSymbol());
-        move.setPlayer(currentPlayer);
+//        move.setPlayer(currentPlayer);
 
         move.setCell(cellToChange);
 
@@ -186,6 +189,8 @@ public class Game {
         }
 
         public Builder setPlayers(List<Player> players) {
+//            The method, which is creating players list, can it check if the new player getting added
+//            has a sign, which is different from the existing players ?
             this.players = players;
             return this;
         }

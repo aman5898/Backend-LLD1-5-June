@@ -22,6 +22,10 @@ public class Board {
         return grid;
     }
 
+    public Cell getCell(int i, int j){
+        return grid.get(i).get(j);
+    }
+
     public void setGrid(List<List<Cell>> grid) {
         this.grid = grid;
     }
