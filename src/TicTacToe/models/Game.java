@@ -131,7 +131,7 @@ public class Game {
         Cell cellToChange = board.getGrid().get(row).get(col);
         cellToChange.setCellState(CellState.FILLED);
         cellToChange.setSymbol(currentPlayer.getSymbol());
-        move.setPlayer(currentPlayer);
+//        move.setPlayer(currentPlayer);
 
         move.setCell(cellToChange);
 
