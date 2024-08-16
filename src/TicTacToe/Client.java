@@ -7,15 +7,19 @@ import TicTacToe.strategies.RowWinningStrategy;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
+
 
 public class Client {
+    static Scanner scn = new Scanner(System.in);
     public static void main(String[] args) {
         GameController gc = new GameController();
 
         List<Player> players = new ArrayList<>();
 
+
         players.add(new HumanPlayer(1,"Aman", new Symbol('0')));
-        players.add(new BotPlayer(2,"Bot", PlayerType.BOT, new Symbol('X'), BotDifficultyLevel.EASY));
+        players.add(new BotPlayer(2,"Bot",new Symbol('X'),BotDifficultyLevel.EASY));
 
         Game game = gc.startGame(
                 3,
@@ -26,10 +30,16 @@ public class Client {
         gc.display(game);
 
         while(gc.checkState(game).equals(GameState.IN_PROGRESS)){
-//          After each move it makeMove will fire check Winner
-//          if there is a Winner, it set the gameState as SUCCESS
             gc.makeMove(game);
             gc.display(game);
+
+            System.out.println("Do you want to Undo ? [Y/N]");
+            String undoAnswer = scn.nextLine();
+            if(undoAnswer.equals("Y")) {
+                gc.Undo(game);
+                System.out.println("Undo is successfull!");
+                gc.display(game);
+            }
         }
 
         if(gc.checkState(game).equals(GameState.SUCCESS)){
