@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3fa36ad-5df2-4e53-89fe-51d6191ee3b3" name="Changes" comment="Tic-Tac-Toe - 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a3fa36ad-5df2-4e53-89fe-51d6191ee3b3" name="Changes" comment="Parking Lot - First Half">
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/SlotAssignmentStrategyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/repositories/ParkingLotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/repositories/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/strategies/RandomSlotAssignmentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/strategies/SlotAssignmentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/strategies/SlotAssignmentStrategyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ParkingLot/controllers/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/controllers/TicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/models/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/models/Gate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/models/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/models/ParkingSlot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingSlot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/services/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/services/TicketService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,52 +61,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AdderSubtracterAtomic.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtracterDeadlock.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtracterLock.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtracterSyncMethod.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtractorSyncLock.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Builder.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Collections.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Decorator.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Generics.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interfaces.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IterableAndIterator.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaAndStreams.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiThreadedMergeSort.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumer.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrototypeAndRegistry.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SOLID.V5.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPool.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicTacToe.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WeatherStation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inheritanceAndConstructors.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inhreitance.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.introToThreads.Client.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/aman/IdeaProjects/Backend LLD-1 5 June/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/aman/IdeaProjects/Backend LLD-1 5 June/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdderSubtracterAtomic.Client.executor": "Run",
+    "Application.AdderSubtracterDeadlock.Client.executor": "Run",
+    "Application.AdderSubtracterLock.Client.executor": "Run",
+    "Application.AdderSubtracterSyncMethod.Client.executor": "Run",
+    "Application.AdderSubtractorSyncLock.Client.executor": "Run",
+    "Application.Builder.Client.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.Client2.executor": "Run",
+    "Application.Collections.Client.executor": "Debug",
+    "Application.Decorator.Client.executor": "Debug",
+    "Application.Generics.Client.executor": "Run",
+    "Application.Interfaces.Client.executor": "Run",
+    "Application.IterableAndIterator.Client.executor": "Run",
+    "Application.LambdaAndStreams.Client.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Application.MultiThreadedMergeSort.Client.executor": "Run",
+    "Application.ProducerConsumer.Client.executor": "Run",
+    "Application.PrototypeAndRegistry.Client.executor": "Debug",
+    "Application.SOLID.V5.Client.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.ThreadPool.Client.executor": "Run",
+    "Application.TicTacToe.Client.executor": "Run",
+    "Application.WeatherStation.executor": "Run",
+    "Application.client.executor": "Run",
+    "Application.inheritanceAndConstructors.Client.executor": "Run",
+    "Application.inhreitance.Client.executor": "Debug",
+    "Application.introToThreads.Client.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/aman/IdeaProjects/Backend LLD-1 5 June/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/aman/IdeaProjects/Backend LLD-1 5 June/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -111,7 +122,7 @@
       <recent name="SOLID.V3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TicTacToe.Client">
+  <component name="RunManager" selected="Application.client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdapterV1Loose.Client" />
       <module name="Backend LLD-1 5 June" />
@@ -131,19 +142,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrototypeAndRegistry.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrototypeAndRegistry.Client" />
-      <module name="Backend LLD-1 5 June" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PrototypeAndRegistry.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,13 +175,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParkingLot.client" />
+      <module name="Backend LLD-1 5 June" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ParkingLot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.client" />
         <item itemvalue="Application.TicTacToe.Client" />
         <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.Decorator.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.PrototypeAndRegistry.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +398,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722272309339</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Parking Lot - First Half">
+      <option name="closed" value="true" />
+      <created>1724689562964</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1724689562964</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +454,8 @@
     <MESSAGE value="Strategy V0" />
     <MESSAGE value="Strategy V1" />
     <MESSAGE value="Observer Template" />
-    <option name="LAST_COMMIT_MESSAGE" value="Observer Template" />
+    <MESSAGE value="Parking Lot - First Half" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parking Lot - First Half" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

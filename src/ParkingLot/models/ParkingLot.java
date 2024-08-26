@@ -12,6 +12,15 @@ public class ParkingLot extends BaseModel{
     // Let's use HashMap : don't
     // better to create another class
     private List<SupportedVehicleType> vehicleTypes;
+    private SlotAssignmentStrategyType slotAssignmentStrategyType;
+
+    public SlotAssignmentStrategyType getSlotAssignmentStrategyType() {
+        return slotAssignmentStrategyType;
+    }
+
+    public void setSlotAssignmentStrategyType(SlotAssignmentStrategyType slotAssignmentStrategyType) {
+        this.slotAssignmentStrategyType = slotAssignmentStrategyType;
+    }
 
     public String getName() {
         return name;

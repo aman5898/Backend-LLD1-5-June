@@ -1,11 +1,10 @@
 package ParkingLot.services;
 
-import ParkingLot.models.Gate;
-import ParkingLot.models.Ticket;
-import ParkingLot.models.Vehicle;
-import ParkingLot.models.VehicleType;
+import ParkingLot.models.*;
 import ParkingLot.repositories.GateRepository;
+import ParkingLot.repositories.TicketRepository;
 import ParkingLot.repositories.VehicleRepository;
+import ParkingLot.strategies.SlotAssignmentStrategyFactory;
 
 import java.util.Date;
 import java.util.Optional;
@@ -14,10 +13,13 @@ public class TicketService {
 
     private GateRepository gateRepository;
     private VehicleRepository vehicleRepository;
+    private TicketRepository ticketRepository;
 
-    public TicketService(GateRepository gateRepository, VehicleRepository vehicleRepository){
+    public TicketService(GateRepository gateRepository, VehicleRepository vehicleRepository,
+    TicketRepository ticketRepository){
         this.gateRepository = gateRepository;
         this.vehicleRepository = vehicleRepository;
+        this.ticketRepository = ticketRepository;
     }
 
     public Ticket issueTicket(
@@ -61,10 +63,16 @@ public class TicketService {
 
 
         // 2. Assign. Slot
+         ParkingLot parkingLot = gate.getParkingLot();
+         ParkingSlot parkingSlot = SlotAssignmentStrategyFactory.
+                 getSlotAssignmentStrategyByType(parkingLot.getSlotAssignmentStrategyType())
+                 .assignSlot(parkingLot,vehicleType);
 
-        // 3. Return the Date
+         ticket.setParkingSlot(parkingSlot);
 
-        return null;
+        // 3. Return the Data
+
+        return ticketRepository.save(ticket);
     }
 }
 
@@ -81,3 +89,11 @@ public class TicketService {
 // Created a repository for Gate to ge the object from id
 // Discussed about why Optionals are better than basic null checks
 // Setup the Vehicle
+// Assign the slot
+// Created the Strategy
+// Strategy Needs Parking Lot
+//          1 either get it through gateId
+//          2. get the Parking Lot id from the Customer
+//          3. Have the Parking Lot ref in the gate so when you get the gate, you automatically get the Parking Lot.
+
+//H.w.Complete Gate Repo and Vehicle Repo

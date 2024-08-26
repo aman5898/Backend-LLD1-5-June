@@ -15,7 +15,7 @@ public class TicketController {
         this.ticketService = ticketService;
     }
 
-    IssueTicketResponseDTO issueTicket(
+    public IssueTicketResponseDTO issueTicket(
             IssueTicketRequestDTO requestDTO
     ){
 
