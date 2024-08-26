@@ -21,9 +21,20 @@ public class TicketController {
 
         IssueTicketResponseDTO response = new IssueTicketResponseDTO();
 
-        Ticket ticket = ticketService.issueTicket(requestDTO.getGateId(), requestDTO.getVehicleNumber());
-        response.setResponseStatus(ResponseStatus.SUCCESS);
-        response.setTicketID(ticket.getId());
+        // request obj, can have a lot of other details, so internally we don't send the
+        // request dto everywhere.
+        try{
+            Ticket ticket = ticketService.issueTicket(requestDTO.getGateId(),
+                    requestDTO.getVehicleNumber(),
+                    requestDTO.getOwnerName(),
+                    requestDTO.getVehicleType());
+            response.setResponseStatus(ResponseStatus.SUCCESS);
+            response.setTicket(ticket);
+        }catch(Exception ex){
+            response.setResponseStatus(ResponseStatus.FAILURE);
+            response.setFailureMessage(ex.getMessage());
+        }
+
 
 
         return response;
@@ -44,5 +55,8 @@ public class TicketController {
 //   1  1
 //   G  O
 //   1   1
+
+
+//Client -> Controller -> Service -> Model
 
 
