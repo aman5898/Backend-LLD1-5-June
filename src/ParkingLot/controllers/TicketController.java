@@ -36,3 +36,13 @@ public class TicketController {
 // DTO : Data Transfer Object
 
 // Try implementing IssueTicket Service
+
+//1   M
+//I   S
+//1    1
+//
+//   1  1
+//   G  O
+//   1   1
+
+
